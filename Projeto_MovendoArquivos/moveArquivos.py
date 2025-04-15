@@ -3,9 +3,9 @@ import shutil
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
-origem = r"E:\Backup_JoaoFontollan"
-destino = r"G:\Backup_pc_joao"
-log_path = r"C:\Users\xboxs\Documents\mover_Grandes_arquivos\_logs\log_transferencias.txt"
+origem = r"E:\aOrigem"
+destino = r"G:\nDestino"
+log_path = r"C:\uDiretorioParaLogs" 
 
 extensoes_imagem = {
     '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif',
